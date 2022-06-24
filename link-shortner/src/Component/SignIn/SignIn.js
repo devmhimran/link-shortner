@@ -19,7 +19,7 @@ const SignIn = () => {
                         <small className='text-left'>Password</small>
                         <input type="password" name='password' placeholder="Enter your password" class="input input-bordered w-full max-w-xs my-2" />
                         <input type="submit" class="btn btn-secondary my-2" value='Sign in' />
-                        <small>Please register <Link to='/signup'></Link ></small>
+                        <div><Link to='/signup'>Please register</Link ></div>
                     </form>
                 </div>
             </div>
