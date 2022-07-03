@@ -50,6 +50,15 @@ const Home = () => {
                                     </label>
                                 </div>
                             </form>)
+                            (<form onSubmit={handleCopyLink}>
+                                <div className="form-control">
+                                    <label className="input-group my-2 rounded-none justify-center">
+                                        <input type="text" placeholder="Enter Your Link" defaultValue={shortenLink.result.short_link3} className="link_output input input-bordered text-white w-1/2 " />
+                                        <button className='btn btn-primary'>Copy to clipboard</button>
+
+                                    </label>
+                                </div>
+                            </form>)
                         }
                     </>
                 </div>
